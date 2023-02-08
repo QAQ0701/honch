@@ -175,12 +175,17 @@
           Contact
         </h3>
         <p>
-          Feel free to contact us using the form below if you have any questions
-          or inquiries. We'll get back to you as soon as possible.
+          Feel free to contact us at <em> honchindustry@gmail.com</em> or by
+          using the form below for any questions or inquiries. We'll get back to
+          you as soon as possible.
         </p>
         <!-- action="/action_page.php"
           target="_blank" -->
-        <form onsubmit="sendEmail(); return false;">
+        <form
+          action="https://formsubmit.co/honchindustry@gmail.com"
+          method="POST"
+        >
+          <!-- <form onsubmit="sendEmail(); return false;"> -->
           <input
             class="w3-input w3-border"
             type="text"
@@ -225,15 +230,11 @@
     <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-16">
       <p>
-        +1-778-680-7222
+        Floor 3, Unit 3, Building 121, North Station District 4, Houzhai Street
+        <br />Yiwu City, Zhejiang Province, China.
         <br />
-        HonchIndustry@gmail.com
         <br />
         Honch Industry and Trade Co., LTD
-        <br />
-        Floor 3, Unit 3, Building 121, North Station District 4, Houzhai Street
-        <br />
-        Yiwu City, Zhejiang Province, China.
 
         <!-- <a
           href="https://www.w3schools.com/w3css/default.asp"
@@ -244,14 +245,14 @@
         > -->
       </p>
     </footer>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
       function sendEmail() {
         Email.send({
           Host: "smtp.gmail.com",
           Username: "",
           Password: "",
-          To: "nina2021c@gmail.com",
+          To: "honchindustry@gmail.com",
           From: document.getElementById("email").value,
           Subject: "New Honch Contact Form Enquiry",
           Body:
@@ -263,6 +264,6 @@
             document.getElementById("message").value,
         }).then((message) => alert("Message Sent Succesfully!"));
       }
-    </script>
+    </script> -->
   </body>
 </html>
